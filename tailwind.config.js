@@ -8,10 +8,6 @@ module.exports = {
 		// Or if using `src` directory:
 		"./src/**/*.{js,ts,jsx,tsx}",
 	],
-	purge: [
-		"./src/components/**/*.{js,jsx}",
-		"./public/index.html",
-	],
 	theme: {
 		extend: {},
 	},
